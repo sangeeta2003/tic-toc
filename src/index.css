@@ -1,6 +1,6 @@
 body{
- 
- background: white;
+ box-sizing: border-box;
+ background: yellow;
  
  
 }
@@ -9,13 +9,61 @@ max-width: 45rem;
 margin: 3rem auto;
 padding: 2rem;
 border-radius: 6px;
+background-color: black;
 background-color: linear-gradient(rgba(49, 49, 45, 0),rgba(73, 73, 71, 0));
 box-shadow: 0 0 20px rgba(0,0,0,0.5) ;
 position: relative;
+top: 200px;
+height: 100px;
 }
 #players{
   list-style: none;
   padding: 0;
+  color: white;
 
+
+}
+.player-name{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+
+
+}
+.player-name1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 550px;
+ top: 53px;
+  position: absolute;
+}
+.player-symbol1{
+  margin-left: 630px;
+ top: 53px;
+  position: absolute;
+  font-size: 20px;
+}
+.player-symbol{
+  position: absolute;
+  font-size: 20px;
+  top: 50px;
+  right: 660px;
+}
+.heading{
+  font-size: 40px;
+  position: absolute;
+  left: 650px;
+}
+.button{
+  background-color: black;
+  color: yellow;
+  position: relative;
+  bottom: 55px;
+  display: flex;
+  left: 150px;
+  justify-content: center ;
+  align-items: center;
 
 }
