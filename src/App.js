@@ -1,5 +1,13 @@
+
 export default function App(){
   return(
-    <div>hello</div>
+<main>
+  <div id="game-container">
+Players
+Game Board
+  </div>
+
+</main>
+    
   )
 }

@@ -1,0 +1,19 @@
+body{
+  /* background-image: url(assets/pexels-pixabay-220051.jpg) ; */
+ background: white;
+ 
+}
+#game-container{
+max-width: 45rem;
+margin: 3rem auto;
+padding: 2rem;
+border-radius: 6px;
+background-color: linear-gradient(rgba(49, 49, 45, 0),rgba(73, 73, 71, 0));
+box-shadow: 0 0 20px rgba(0,0,0,0.5) ;
+position: relative;
+}
+#players{
+  list-style: none;
+  padding: 0;
+
+}
