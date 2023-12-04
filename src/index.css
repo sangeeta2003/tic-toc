@@ -1,6 +1,7 @@
 body{
-  /* background-image: url(assets/pexels-pixabay-220051.jpg) ; */
+ 
  background: white;
+ 
  
 }
 #game-container{
@@ -15,5 +16,6 @@ position: relative;
 #players{
   list-style: none;
   padding: 0;
+
 
 }
